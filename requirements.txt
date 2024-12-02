@@ -1,0 +1,38 @@
+llama-index==0.10.68
+llama-index-embeddings-huggingface==0.1.5
+llama-index-llms-huggingface==0.1.4
+llama-index-readers-file==0.1.6
+llama-index-vector-stores-faiss==0.1.2
+streamlit==1.31.1
+pandas==2.2.0
+numpy==1.26.4
+torch==2.1.2
+faiss-gpu==1.7.4; platform_system != "Darwin" and platform_machine != "arm64"
+faiss-cpu==1.7.4; platform_system == "Darwin" or platform_machine == "arm64"
+sentence-transformers==2.3.1
+transformers==4.37.2
+optimum==1.16.1
+bitsandbytes==0.42.0
+accelerate==0.26.1
+scipy==1.12.0
+scikit-learn==1.4.0
+protobuf==4.25.2
+tokenizers==0.15.2
+safetensors==0.4.2
+einops==0.7.0
+PyPDF2==3.0.1
+python-magic==0.4.27
+SQLAlchemy==2.0.25
+tqdm==4.66.1
+python-dotenv==1.0.1
+pdfminer.six==20231228
+unstructured==0.11.8
+markdown==3.5.2
+tabulate==0.9.0
+typing-extensions==4.9.0
+urllib3==2.2.0
+regex==2023.12.25
+pillow==10.2.0
+nltk==3.8.1
+
+# Removed auto-gptq due to installation issues on macOS
